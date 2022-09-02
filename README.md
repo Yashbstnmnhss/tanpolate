@@ -1,2 +1,2 @@
-# tanpolate
-AHAH yet another useless template engine 
+# Tanpolate
+A useless template engine
