@@ -1,5 +1,8 @@
 # Tanpolate
-A useless template engine
+A useless template engine, it can do nothing
+
+- `<{` and `}>` to insert values or expressions
+- `<@` and `@>` to insert javascript codes
 
 ```js
 Hello, <{this.name}>!
@@ -16,13 +19,6 @@ No.<{index}> = <{item}>
 <{a}> Im zero
 <@ a = 114514 @>
 <{a}> Im eheheh aahhhhhhh now
-
-/*<@ switch (a) { @>
-    <@ case 1: @>
-NO WAY
-        <@ break @>
-    <@ case 114514 @>
-Ohh right way
-        <@ break @>
-<@ } @>*/ Ok No switch Please
 ```
+
+The `tanpolate` function supports custom options, you can use custom tags instead of `<@ <{ @> }>`
